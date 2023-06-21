@@ -1,0 +1,40 @@
+2023-06-05T08:03:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\FoodFresh\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wc-subscriptions-product.php on line 1334
+
+2023-06-05T08:03:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\FoodFresh\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wcs-core-autoloader.php on line 65
+
+2023-06-05T08:07:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\FoodFresh\wp-includes\blocks.php on line 536
+
+2023-06-05T08:16:18+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php:250
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php(250): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): Astra_Sites_Admin->admin_welcome_notices('')
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php on line 250
+
+2023-06-05T08:21:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\license\api.php:267
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\core\admin\canary-deployment.php(16): ElementorPro\License\API::get_version(false)
+#1 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\core\admin\canary-deployment.php(90): ElementorPro\Core\Admin\Canary_Deployment->get_canary_deployment_remote_info(false)
+#2 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\core\admin\canary-deployment.php(57): Elementor\Core\Admin\Canary_Deployment->get_canary_deployment_info()
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(310): Elementor\Core\Admin\Canary_Deployment->check_version(Object(stdClass))
+#4 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(205): WP_Hook->apply_filters(Object(stdClass), Array)
+#5 C:\xampp\htdocs\Gee Fashion\wp-includes\option.php(2036): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#6 C:\xampp\htdocs\Gee Fashion\wp-includes\update.php(391): set_site_transient('update_plugins', Object(stdClass))
+#7 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): wp_update_plugins('')
+#8 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\Gee Fashion\wp-admin\admin.php(385): do_action('load-plugins.ph...')
+#11 C:\xampp\htdocs\Gee Fashion\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\license\api.php on line 267
+
+2023-06-05T11:18:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\addons\breadcrumbs\customizer\class-astra-breadcrumbs-color-configs.php on line 13
+
+2023-06-05T11:18:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\widgets\inner-section.php on line 4
+
+2023-06-05T11:18:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\widgets\html.php on line 4
+

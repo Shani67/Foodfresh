@@ -1,0 +1,6 @@
+{
+    "warning": "Edit this file in cypress.yml line 44 too",
+    "core": null,
+    "plugins": ["."],
+    "themes": ["https://downloads.wordpress.org/theme/extendable.zip"]
+}

@@ -1,0 +1,17 @@
+2023-06-02T03:10:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\frontend.php on line 14
+
+2023-06-02T03:11:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductCategory.php on line 38
+
+2023-06-02T03:12:27+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php:250
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php(250): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): Astra_Sites_Admin->admin_welcome_notices('')
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php on line 250
+
+2023-06-02T06:16:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\contact-form-7\modules\really-simple-captcha.php on line 8
+

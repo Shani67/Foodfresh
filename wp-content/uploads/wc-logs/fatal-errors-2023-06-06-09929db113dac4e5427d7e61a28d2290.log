@@ -1,0 +1,185 @@
+2023-06-06T02:59:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wpdb.php on line 2431
+
+2023-06-06T03:00:04+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments/includes/notes/class-wc-payments-notes-set-up-refund-policy.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\includes\class-wc-payments.php:1229
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): WC_Payments::add_woo_admin_notes('')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-admin\admin.php(175): do_action('admin_init')
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\includes\class-wc-payments.php on line 1229
+
+2023-06-06T03:00:54+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php:250
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php(250): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): Astra_Sites_Admin->admin_welcome_notices('')
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php on line 250
+
+2023-06-06T03:02:32+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php:250
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php(250): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): Astra_Sites_Admin->admin_welcome_notices('')
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php on line 250
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php on line 85
+
+oo\autoloader.php on line 78
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 9
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woolentor-addons\includes\manage_wc_template.php on line 328
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\checkout-plugins-stripe-woo\gateway\stripe\card-payments.php on line 27
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wc-subscriptions-product.php on line 1334
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-gutenberg.php on line 9
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php on line 85
+
+2023-06-06T03:39:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-customize-nav-menus.php on line 1613
+
+2023-06-06T03:39:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 18
+
+2023-06-06T03:40:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\ActivityPanels.php on line 68
+
+2023-06-06T03:40:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\RemoteInboxNotifications.php on line 46
+
+2023-06-06T03:40:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\SettingsNavigationFeature.php on line 177
+
+2023-06-06T03:40:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\SettingsNavigationFeature.php on line 177
+
+2023-06-06T03:40:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\WcPayWelcomePage.php on line 205
+
+2023-06-06T03:40:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminSharedSettings.php on line 8
+
+2023-06-06T03:40:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\compatibility\woocommerce\woocommerce-common-functions.php on line 14
+
+2023-06-06T03:40:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\builder\type\header\html\dynamic-css\dynamic.css.php on line 9
+
+2023-06-06T03:40:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\upgrades\class-wc-subscriptions-upgrader.php on line 973
+
+2023-06-06T03:40:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\plugin.php on line 153
+
+2023-06-06T03:41:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\core\connect\apps\activate.php on line 8
+
+2023-06-06T03:41:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\DeprecatedOptions.php on line 76
+
+2023-06-06T03:41:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\Api.php on line 97
+
+2023-06-06T03:41:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\EmptyMiniCartContentsBlock.php on line 15
+
+2023-06-06T03:41:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wpdb.php on line 2431
+
+2023-06-06T06:04:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\functions.php on line 649
+
+2023-06-06T06:04:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wpdb.php on line 2431
+
+2023-06-06T06:05:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\class-astra-dynamic-css.php on line 13
+
+2023-06-06T06:05:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\functions.php on line 649
+
+2023-06-06T06:05:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wc-subscriptions-addresses.php on line 256
+
+2023-06-06T06:05:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wc-subscriptions-order.php on line 2230
+
+2023-06-06T06:05:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wcs-initial-cart-stock-manager.php on line 16
+
+2023-06-06T06:05:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\abstracts\abstract-wcs-scheduler.php on line 66
+
+2023-06-06T06:05:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\abstracts\abstract-wcs-scheduler.php on line 66
+
+2023-06-06T06:05:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-admin\includes\class-wp-site-health.php on line 3448
+
+2023-06-06T07:49:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-06-06T07:50:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\includes\shipping\flat-rate\includes\settings-flat-rate.php on line 10
+
+2023-06-06T08:22:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\functions.php on line 649
+
+header\button\class-astra-header-button-component.php on line 12
+
+2023-06-06T08:23:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\base\module-base.php on line 6
+
+2023-06-06T08:25:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woolentor-addons\includes\admin\include\template-library\manager.php on line 2
+
+2023-06-06T08:25:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\cartflows\classes\importer\batch-process\helpers\class-cartflows-importer-image.php on line 19
+
+2023-06-06T08:26:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\blocks.php on line 502
+
+2023-06-06T08:27:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wpdb.php on line 2431
+
+2023-06-06T08:27:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\admin\class-wcs-wc-admin-manager.php on line 88
+
+2023-06-06T08:58:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-data-currencies-controller.php on line 228
+
+2023-06-06T08:59:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\data\v2\base\controller.php on line 8
+
+2023-06-06T08:59:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\vendor\woocommerce\subscriptions-core\includes\class-wc-subscriptions-manager.php on line 2471
+
+2023-06-06T09:00:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\checkout-plugins-stripe-woo\inc\notice.php on line 19
+
+2023-06-06T09:01:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce-payments\includes\multi-currency\Compatibility.php on line 25
+
+2023-06-06T09:01:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\dynamic-css\custom-menu-old-header.php on line 9
+
+2023-06-06T09:02:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\plugin.php on line 153
+
+2023-06-06T09:02:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\plugin.php on line 153
+
+2023-06-06T09:02:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\plugin.php on line 153
+
+2023-06-06T09:02:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\blocks.php on line 328
+
+2023-06-06T09:03:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\class-wpdb.php on line 2431
+
+2023-06-06T09:03:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\modules\forms\submissions\database\migration.php on line 51
+
+2023-06-06T09:03:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\core\class-gutenberg-editor-css.php on line 14
+
+2023-06-06T09:20:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-06-06T09:20:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\plugin.php on line 153
+
+2023-06-06T09:20:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\modules\usage\module.php on line 9
+
+2023-06-06T09:21:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\builder\type\header\html\class-astra-header-html-component-loader.php on line 12
+
+2023-06-06T09:21:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\builder\type\header\search\class-astra-header-search-component-loader.php on line 12
+
+2023-06-06T09:21:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\themes\astra\inc\builder\type\header\search\dynamic-css\dynamic.css.php on line 9
+
+2023-06-06T09:22:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor-pro\modules\forms\classes\honeypot-handler.php on line 7
+
+2023-06-06T10:15:37+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 1 given in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php:250
+Stack trace:
+#0 C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php(250): sprintf('<div class="not...')
+#1 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(308): Astra_Sites_Admin->admin_welcome_notices('')
+#2 C:\xampp\htdocs\Gee Fashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\Gee Fashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Gee Fashion\wp-admin\admin-header.php(303): do_action('admin_notices')
+#5 C:\xampp\htdocs\Gee Fashion\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\classes\class-astra-sites-admin.php on line 250
+
+2023-06-06T11:39:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\elementor\includes\controls\groups\base.php on line 496
+
+2023-06-06T11:39:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-includes\assets\script-loader-packages.min.php on line 1
+
+2023-06-06T11:39:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\astra-sites\inc\importers\wxr-importer\class-wxr-importer.php on line 22
+
+2023-06-06T11:39:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\cartflows\modules\checkout\classes\class-cartflows-checkout-markup.php on line 9
+
+2023-06-06T11:39:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Gee Fashion\wp-content\plugins\woocommerce\src\Internal\Admin\Notes\WooSubscriptionsNotes.php on line 10
+

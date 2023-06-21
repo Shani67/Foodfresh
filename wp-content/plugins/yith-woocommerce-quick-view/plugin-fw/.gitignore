@@ -1,0 +1,15 @@
+# OS X metadata
+.DS_Store
+
+# Editors
+.idea/
+settings.json
+.vscode
+
+# Node
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
